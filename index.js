@@ -33,9 +33,7 @@ function randomParagraph(){
         typingText.innerHTML += spanTag
     })
     typingText.querySelectorAll("span")[0].classList.add("active")
-    // focusing input field on keydown  
     document.addEventListener("keydown",()=> inputField.focus())
-    // focusing  input field on keydown  or click event 
     typingText.addEventListener("click",()=> inputField.focus())
 
 }
